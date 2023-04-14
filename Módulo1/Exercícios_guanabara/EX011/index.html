@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGENS DINÂMICAS</title>
+</head>
+<body>
+    <h1>Imanges dinâmicas</h1>
+    <hr>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio src="midia/Midtempo Cajun Blues Rock.mp3" controls></audio>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Midtempo Cajun Blues Rock.mp3" type="audio/mpeg">
+        <source src="midia/Midtempo Cajun Blues Rock.ogg" type="audio/ogg">
+        <source src="midia/Midtempo Cajun Blues Rock.wav" type="audio/wav">
+    </audio>
+
+    <p>Caso seu navegador não conseuiga reproduzir o aúdio, <a href="midia/Midtempo Cajun Blues Rock.mp3" download="Midtempo CajunBlues Rock.mp3" >segue o link para download</a>.</p>
+    
+</body>
+</html>

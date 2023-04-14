@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+hr#borda1{
+    border-color: black;
+    border-width: 2px;
+}
+
+hr#borda2{
+    border-width: 3px;
+    border-color: white;
+}
+
+hr#borda3{
+    border-color: black;
+    border-width: 2px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+p{
+    text-align: center;
+}
+
