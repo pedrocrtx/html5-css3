@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     padding: 0;
     margin: 0;
@@ -12,18 +14,22 @@ header {
     font-size: 1.5em;  
 }
 
+header > h1 {
+    font-variant: small-caps;
+}
+
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.7em;
 }
 
 
-header > p > a {
+a {
     color: white;
     text-decoration: none;
 }
 
-header > p > a:hover {
+a:hover {
     text-decoration: underline;
 }
 
