@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de filmes</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <h1>Tabela de amigos e filmes</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="nomes">Luciana Cartaxo Tavares</td>
+                <td>Uma linda Mulher</td>
+                <td>As Panteras</td>
+                <td>Faroeste</td>
+            </tr>
+            <tr>
+                <td class="nomes">Isadora Cartaxo</td>
+                <td>It - A coisa</td>
+                <td>As apimentadas</td>
+                <td>As branquelas</td>
+            </tr>
+            <tr>
+                <td class="nomes">Martina Cartaxo</td>
+                <td>Meninas Malvadas</td>
+                <td>Barbie</td>
+                <td>De repente 30</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+            </tr>
+            <tr>
+                <td class="nomes">Pedro Vítor Cartaxo</td>
+                <td>Interestelar</td>
+                <td>Nada de novo no front</td>
+                <td>Avengers - End Game</td>
+            </tr>
+            <tr>
+                <td class="nomes">Lucas Cartaxo</td>
+                <td>Naruto</td>
+                <td>One Piece</td>
+                <td>Hunter x Hunter</td>
+            </tr>
+            <tr>
+                <td class="nomes">José Marquinélio</td>
+                <td colspan="3">Não gosta de filme/série</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
