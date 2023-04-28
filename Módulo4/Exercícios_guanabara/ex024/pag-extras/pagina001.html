@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            border: 3px solid black;
+
+        }
+
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            border: 3px solid black;
+            background-color: lightgray;
+        }
+
+        th {
+            border: 3px solid black;
+            height: 50px;
+            width: 70px;
+            padding: 5px;
+        }
+
+        .nomes {
+            border: 3px solid black;
+            font-weight: bold;
+            color: lightcoral
+        }
+
+        td {
+            border: 1px solid black;
+            border-bottom: 3px solid black;
+            height: 75px;
+            width: 115px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td class="nomes">Luciana Cartaxo Tavares</td>
+                <td>Uma linda Mulher</td>
+                <td>As Panteras</td>
+                <td>Faroeste</td>
+            </tr>
+            <tr>
+                <td class="nomes">Isadora Cartaxo</td>
+                <td>It - A coisa</td>
+                <td>As apimentadas</td>
+                <td>As branquelas</td>
+            </tr>
+            <tr>
+                <td class="nomes">Martina Cartaxo</td>
+                <td>Meninas Malvadas</td>
+                <td>Barbie</td>
+                <td>De repente 30</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+            </tr>
+            <tr>
+                <td class="nomes">Pedro Vítor Cartaxo</td>
+                <td>Interestelar</td>
+                <td>Nada de novo no front</td>
+                <td>Avengers - End Game</td>
+            </tr>
+            <tr>
+                <td class="nomes">Lucas Cartaxo</td>
+                <td>Naruto</td>
+                <td>One Piece</td>
+                <td>Hunter x Hunter</td>
+            </tr>
+            <tr>
+                <td class="nomes">José Marquinélio</td>
+                <td colspan="3">Não gosta de filme/série</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
