@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+Pesquise sobre Typical Device Points
+-------------------------------------
+Pequenas telas: até 600px
+Celular: 600px - 768px;
+Tablet: 768px - 992px;
+Desktop: 992px - 1200px;
+Grandes telas: Ácima de 1200px;
+*/
+
+@media screen and (min-width: 768px) {
+    #icon {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    li {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        border-radius: 5px;
+    }
+
+    main {
+        width: 769px;
+    }
+}
